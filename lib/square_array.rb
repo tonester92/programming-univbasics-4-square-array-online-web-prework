@@ -1,6 +1,6 @@
-def square_array(array)
+def square_array(numbers)
   counter = 0 
-  results = Array.new(numbers)
+  new_numbers = Array.new(n
   
   while array.index < counter
   
