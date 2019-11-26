@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  enum = array.each
+  a = []
+  loop do
+    n = enum.next
+    a << n*n
+  end
+  a
 end
