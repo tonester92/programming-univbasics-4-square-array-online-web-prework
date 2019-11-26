@@ -3,4 +3,10 @@ def square_array(numbers)
   new_numbers = Array.new()
   
   while numbers.index > counter do 
-    numbers ** 2 
+    numbers ** 2 = results
+    Array.new() << results
+  end 
+end 
+
+
+    
